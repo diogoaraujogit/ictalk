@@ -626,8 +626,8 @@ export const Speaker = styled.div`
   align-items: center;
 
   img {
-    width: 30.892rem;
-    height: 30.82rem;
+    width: 30rem;
+    height: 40rem;
     margin-bottom: 5.48rem;
   }  
 
