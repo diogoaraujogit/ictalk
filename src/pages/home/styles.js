@@ -9,7 +9,7 @@ export const Container = styled.div`
   overflow-x: hidden;
 
   @media(max-width: 480px) {
-    overflow-x: auto;     
+    overflow-x: hidden;     
   }
   
 `;
