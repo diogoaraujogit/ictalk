@@ -489,7 +489,8 @@ export const SignupCards = styled.div`
   display: flex;
   flex-direction: row;
   width: 120.2rem;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
 
   @media(max-width: 480px) {
     display: flex;
@@ -598,7 +599,7 @@ export const Speakers = styled.div`
     width: 120rem;
     display: grid;
     grid-gap: 12rem;
-    grid-template-columns: repeat(3, 1fr)
+    grid-template-columns: repeat(2, 1fr)
   }
 
   @media(max-width: 480px) {
@@ -619,6 +620,11 @@ export const Speakers = styled.div`
 `;
 
 export const Speaker = styled.div`
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   img {
     width: 30.892rem;
     height: 30.82rem;

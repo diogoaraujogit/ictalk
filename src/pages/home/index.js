@@ -12,10 +12,10 @@ import white_to_blue_dialogs from '../../assets/white_to_blue_dialogs.svg'
 import blue_to_white_dialogs from '../../assets/blue_to_white_dialogs.svg'
 import speaker_avatar from '../../assets/speaker_avatar.png'
 import participant from '../../assets/participant.png'
-// import speaker_1 from '../../assets/speaker_1.png'
-// import speaker_2 from '../../assets/speaker_2.png'
-// import speaker_3 from '../../assets/speaker_3.png'
-import speaker_4 from '../../assets/speaker_4.jpg'
+import speaker_1 from '../../assets/speaker_1_09_2020.jpeg'
+import speaker_2 from '../../assets/speaker_2_09_2020.jpeg'
+import speaker_3 from '../../assets/speaker_3_09_2020.jpeg'
+import speaker_4 from '../../assets/speaker_4_09_2020.jpg'
 import ictalk_footer from '../../assets/ictalk_footer.png'
 import logo_principal from '../../assets/logo_principal.png'
 import footer from '../../assets/footer.png'
@@ -40,9 +40,9 @@ export default function Home() {
           <div>
             <IctalkInfo>
               <h3>EDIÇÃO</h3>
-              <h1>FEV 2020</h1>
+              <h1>SET 2020</h1>
               <p>Automação . Software . Produção</p>
-              <h2>21.Fev 09:00h às 10:00h</h2>
+              <h2>10.Set 16:00h às 17:00h</h2>
               
               <a href='#signup'>
               <button>
@@ -105,7 +105,7 @@ export default function Home() {
       <SignUp>
         <h1 id='signup'>Inscrições <span>FEV 2020</span></h1>
         <SignupCards>
-          <a href='https://forms.gle/edR8ijya7EUUq6WVA' target='_blank' rel="noopener noreferrer">
+          {/* <a href='https://forms.gle/edR8ijya7EUUq6WVA' target='_blank' rel="noopener noreferrer">
           <Card>
             <div >
               <img src={participant} alt='participant' /> 
@@ -114,7 +114,7 @@ export default function Home() {
               Participante
             </button>
           </Card>
-          </a>
+          </a> */}
           <a href='https://docs.google.com/forms/d/e/1FAIpQLScKE_7yHsJh-_L_t6PevlWOn0hilO25lqEKKwNlQFRwx7ac9Q/viewform' target='_blank' rel="noopener noreferrer">
           <Card speaker >
             <div>
@@ -130,25 +130,25 @@ export default function Home() {
       <Speakers id='speakers'>
         <h1>Palestras Edição FEV 2020</h1>
         <div>
-          {/* <Speaker>
+          <Speaker>
             <img src={speaker_1} alt='Speaker' />  
-            <h3>Vitória Leite</h3>
-            <h4>Firmware na Automação Industrial</h4>
+            <h3>Lucas Melo</h3>
+            <h4>Framework Angular</h4>
           </Speaker>
           <Speaker>
             <img src={speaker_2} alt='Speaker' />  
-            <h3>Leonan Matos</h3>
-            <h4>Visão Computacional: Conceitos e Aplicações em Projetos</h4>
+            <h3>Igor Oliveira</h3>
+            <h4>Google Cloud: custos, cotas e orçamentos</h4>
           </Speaker>
           <Speaker>
             <img src={speaker_3} alt='Speaker' />  
-            <h3>Lucas Evangelista</h3>
-            <h4>Porquê Inteligência Artificial não é IF-ELSE</h4>
-          </Speaker> */}
+            <h3>Oliveira</h3>
+            <h4>Aprender a aprender</h4>
+          </Speaker>
           <Speaker>
             <img src={speaker_4} alt='Speaker' />  
-            <h3>Diogo Araújo</h3>
-            <h4>Web Software Developer</h4>
+            <h3>Emerson Domingos</h3>
+            <h4>BDD (Behaviour Drive Development)</h4>
           </Speaker>
         </div>
       </Speakers>
