@@ -43,6 +43,7 @@ export default function Home() {
               <h1>SET 2020</h1>
               <p>Automação . Software . Produção</p>
               <h2>10.Set 16:00h às 17:00h</h2>
+              <p>Horário de Brasília</p>
               
               <a href='#signup'>
               <button>
@@ -103,7 +104,7 @@ export default function Home() {
         <img src={blue_to_white_dialogs} alt='Blue to white dialogs' />
       </BlueWhite>
       <SignUp>
-        <h1 id='signup'>Inscrições <span>FEV 2020</span></h1>
+        <h1 id='signup'>Inscrições <span>SET 2020</span></h1>
         <SignupCards>
           {/* <a href='https://forms.gle/edR8ijya7EUUq6WVA' target='_blank' rel="noopener noreferrer">
           <Card>
@@ -128,7 +129,7 @@ export default function Home() {
         </SignupCards>
       </SignUp>
       <Speakers id='speakers'>
-        <h1>Palestras Edição FEV 2020</h1>
+        <h1>Palestras Edição SET 2020</h1>
         <div>
           <Speaker>
             <img src={speaker_1} alt='Speaker' />  
@@ -143,7 +144,7 @@ export default function Home() {
           <Speaker>
             <img src={speaker_3} alt='Speaker' />  
             <h3>Oliveira</h3>
-            <h4>Aprender a aprender</h4>
+            <h4>Aprenda a aprender</h4>
           </Speaker>
           <Speaker>
             <img src={speaker_4} alt='Speaker' />  
