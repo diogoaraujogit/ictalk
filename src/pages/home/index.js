@@ -11,7 +11,7 @@ import blue_dialog from '../../assets/blue_dialog.png'
 import white_to_blue_dialogs from '../../assets/white_to_blue_dialogs.svg'
 import blue_to_white_dialogs from '../../assets/blue_to_white_dialogs.svg'
 import speaker_avatar from '../../assets/speaker_avatar.png'
-import participant from '../../assets/participant.png'
+// import participant from '../../assets/participant.png'
 import speaker_1 from '../../assets/speaker_1_09_2020.jpeg'
 import speaker_2 from '../../assets/speaker_2_09_2020.jpeg'
 import speaker_3 from '../../assets/speaker_3_09_2020.jpeg'
@@ -116,7 +116,7 @@ export default function Home() {
             </button>
           </Card>
           </a> */}
-          <a href='https://docs.google.com/forms/d/e/1FAIpQLScKE_7yHsJh-_L_t6PevlWOn0hilO25lqEKKwNlQFRwx7ac9Q/viewform' target='_blank' rel="noopener noreferrer">
+          <a href={process.env.REACT_APP_SPEAKER_FORM} target='_blank' rel="noopener noreferrer">
           <Card speaker >
             <div>
               <img src={speaker_avatar} alt='Speaker' /> 
